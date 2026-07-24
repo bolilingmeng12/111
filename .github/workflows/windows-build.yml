@@ -17,12 +17,12 @@ jobs:
           node-version: '18'
 
       - name: Install dependencies (root)
-        run: npm ci
+        run: npm install
 
       - name: Install renderer deps & build (Vite)
         working-directory: ./src/renderer
         run: |
-          npm ci
+          npm install
           npm run build
 
       - name: Compile TypeScript (electron)
