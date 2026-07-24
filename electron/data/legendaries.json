@@ -1,0 +1,7 @@
+[
+  { "id": "L1", "name": "示例传奇A", "mana": 8, "rarity": "LEGENDARY", "class": "NEUTRAL", "maxCopies": 1 },
+  { "id": "L2", "name": "示例传奇B", "mana": 9, "rarity": "LEGENDARY", "class": "NEUTRAL", "maxCopies": 1 },
+  { "id": "L3", "name": "示例传奇C", "mana": 6, "rarity": "LEGENDARY", "class": "NEUTRAL", "maxCopies": 1 },
+  { "id": "L4", "name": "示例传奇D", "mana": 7, "rarity": "LEGENDARY", "class": "NEUTRAL", "maxCopies": 1 },
+  { "id": "L5", "name": "示例传奇E", "mana": 5, "rarity": "LEGENDARY", "class": "NEUTRAL", "maxCopies": 1 }
+]

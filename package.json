@@ -1,0 +1,26 @@
+{
+  "name": "hearthstone-arena-legend-infer",
+  "version": "0.1.0",
+  "private": true,
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "concurrently \"vite\" \"wait-on http://localhost:5173 && electron .\"",
+    "build": "vite build && electron-builder",
+    "start": "electron .",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0",
+    "electron": "^29.0.0",
+    "electron-builder": "^24.6.0",
+    "wait-on": "^7.0.1",
+    "vite": "^5.0.0",
+    "typescript": "^5.1.6"
+  },
+  "dependencies": {
+    "better-sqlite3": "^8.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1"
+  }
+}
