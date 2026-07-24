@@ -15,7 +15,8 @@
     "electron-builder": "^24.6.0",
     "wait-on": "^7.0.1",
     "vite": "^5.0.0",
-    "typescript": "^5.1.6, "@vitejs/plugin-react": "^4.0.0""
+    "typescript": "^5.1.6, 
+    "@vitejs/plugin-react": "^4.0.0""
   },
   "dependencies": {
     "better-sqlite3": "^8.0.1",
